@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdminLTE 3 | Dashboard</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed" style="height:100vh !important;">
+    <div class="wrapper" style="height:100vh !important;">
+
+        <!-- Preloader -->
+        <div class="preloader flex-column justify-content-center align-items-center">
+            <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="card card-secondary mt-5">
+                        <div class="card-header">
+                            <h3 class="card-title">Inicio</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="idSistema">Sistema</label>
+                                    <input type="text" id="idSistema" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="idMandante">Mandante</label>
+                                    <input type="text" class="form-control" id="idMandante">
+                                </div>
+                                <div class="form-group">
+                                    <label for="idUsuario">Usuario</label>
+                                    <input type="text" class="form-control" id="idUsuario">
+                                </div>
+                                <div class="form-group">
+                                    <label for="idPassword">Password</label>
+                                    <input type="password" class="form-control" id="idPassword">
+                                </div>
+                                <div class="form-group">
+                                    <label for="idIdioma">Idioma</label>
+                                    <select id="idIdioma" class="form-control">
+                                        <option value="">Seleccione idioma</option>
+                                        <option value="Alemán">Alemán</option>
+                                        <option value="Español">Español</option>
+                                        <option value="Inglés">Inglés</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+
+                            <div class="card-footer">
+                                <a href="index.html" class="btn btn-dark btn-sm">Acceder al sistema</button>
+                                <a href="#">Modificar clave de acceso</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+
+
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
+
+</body>
+
+</html>
